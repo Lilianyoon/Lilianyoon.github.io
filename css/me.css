@@ -1,0 +1,81 @@
+@font-face{
+	font-family: "Candy";
+	src:url("font/Candy_Demo.ttf");
+}
+body {
+	background-image: url("../images/bg.jpg");
+	padding: 5%;
+	/*background-color:rgb(255, 255, 204);*/
+	font-size: 30px;
+	font-family: "Candy"
+}
+
+
+.h{
+	text-align: center;
+	line-height: 100px;
+}
+
+
+.top{
+	display: flex;
+	justify-content: center;
+}
+
+
+.aboutme{
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	line-height: 200px;
+
+}
+
+
+#round{
+	width:200px;
+	height:200px;
+	background: rgb(255, 51, 51);
+	-webkit-border-radius:100px;
+	border-radius:100px;
+}
+.Lilian{
+	display: inline-block;
+	text-align: center;
+	line-height: 100px;
+	width: 40%;
+	height:100px;
+	margin:30px;
+	border: 2px ;
+	padding:10px;
+	
+	font-size: 40px;
+	background-color: rgb(255, 204, 153);
+}
+.home{
+	display: inline-block;
+	float: right;
+	text-align: center;
+	line-height: 50px;
+	width: 20%;
+	height:100px;
+	margin: 30px 20px 20px 10px;
+	border: 2px solid black;
+	padding:5px;
+	font-size: 40px;
+}
+.home:hover{
+	background-color:rgb(255, 204, 153);
+	color: white; 
+}
+.intro{
+	display: flex;
+	border:2px ;
+	margin:10px 5px;
+	padding:10px 5px;
+	background-color:rgb(255, 204, 153);
+}
+a{
+	text-decoration: none;
+	color: black;
+}

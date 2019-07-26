@@ -1,0 +1,53 @@
+body {
+
+	background-color:rgb(255, 255, 204);
+	font-size: 30px;
+}
+
+h3{
+    color:blue;
+    font-family:Optima;
+    }
+
+li{
+	font-family: Optima;
+}
+body{
+	font-family: Optima;
+}
+div{
+	border:1px solid #000000;
+}
+div{
+	margin-left:10px;
+	padding-top:10px;
+}
+div{
+	margin:10px 5px;
+	padding:10px 5px;
+	/*top&bottom right&left  */
+}
+div {
+	margin:10px 5px 10px 10px ;
+	padding:10px 5px 5px 0px;
+	/*top, right, bottom, left */
+}
+img {
+	display: flex;
+	margin:2px;
+	height: 200px;
+	width: auto;
+}
+
+.threeImgs {
+	display:block;
+	float:left;
+}
+
+ul{
+	display:inline-block;
+}
+
+.lc{
+  background-color: rgb(255, 204, 204);
+}

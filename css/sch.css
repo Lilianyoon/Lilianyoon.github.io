@@ -1,0 +1,101 @@
+@font-face{
+	font-family: "Candy";
+	src:url("font/Candy_Demo.ttf");
+}
+body {
+	background-image: url("../images/bg.jpg");
+	padding: 5%;
+	/*background-color:rgb(255, 255, 204);*/
+	font-size: 30px;
+	font-family: "Candy"
+}
+
+.top{
+	display: flex;
+	justify-content: center;
+}
+
+
+.aboutmyschool{
+	display: inline-block;
+	text-align: center;
+	line-height: 200px;
+
+}
+
+.h{
+	text-align: center;
+	line-height: 100px;
+}
+
+
+#round{
+	width:200px;
+	height:200px;
+	background: rgb(255, 51, 51);
+	-webkit-border-radius:100px;
+	border-radius:100px;
+}
+
+.dl24{
+	display: inline-block;
+	text-align: center;
+	line-height: 100px;
+	width: 60%;
+	height:100px;
+	margin-top: 10px;
+	border: 2px ;
+	padding:10px;
+	font-size: 40px;
+	background-color: rgb(255, 204, 153);
+}
+
+img {
+	display: flex;
+	margin:2px;
+	height: 200px;
+	width: auto;
+}
+
+.threeImgs {
+	display:block;
+	float:left;
+}
+
+ul{
+	display:inline-block;
+}
+.home{
+	display: inline-block;
+	float: right;
+	text-align: center;
+	line-height: 50px;
+	width: 20%;
+	height:100px;
+	margin: 30px 20px 20px 10px;
+	border: 2px solid black;
+	padding:5px;
+	font-size: 40px;
+}
+.home:hover{
+	background-color:rgb(255, 204, 153);
+	color: white; 
+}
+ul{
+	display:inline-block;
+
+}
+.introsch{
+	display: inline-block;
+	border:2px ;
+	margin:10px 5px;
+	padding:10px 5px;
+	background-color:rgb(255, 204, 153);
+}
+.video{
+	font-size:40px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}

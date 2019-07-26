@@ -1,0 +1,158 @@
+@font-face{
+	font-family: "Candy";
+	src:url("font/Candy_Demo.ttf");
+}
+
+
+body {
+	background-image: url("../images/bg.jpg");
+	padding: 5%;
+	/*background-color:rgb(255, 255, 204);*/
+	font-size: 30px;
+	font-family: "Candy"
+}
+
+.title{
+	margin-top:20px;
+	
+	
+	width:100%;
+	background-color: rgb(255, 204, 153);
+	/*font-family: "Candy Demo";
+	text-align:center;*/
+}
+
+.lc{
+	/* background-color: rgb(255, 204, 204);*/
+	font-family: "Candy";
+	text-align:center;
+}
+.welcome{
+	font-size: 35px;
+	font-family: "Candy";
+	text-align:center;
+	/* background-color: rgb(255, 204, 204);*/
+}
+.aboutme {
+	text-align: center;
+	font-size: 30px;
+	border: 2px solid black; 
+
+}
+.aboutme:hover{
+	background-color:rgb(255, 204, 153);
+	color: white; 
+}
+
+/*.cute3{
+	position: relative;
+	display: flex;
+	width: 600px;
+	height:100px;
+}
+*/
+.hometown{
+	/*position:absolute;*/
+	display: inline-block;
+	text-align: center;
+	line-height: 100px;
+	width: 30%;
+	height:100px;
+	margin-top: 10px;
+	border: 2px solid black;
+	padding:10px;
+	font-size: 30px;
+}
+
+.hometown:hover{
+	background-color: rgb(255, 204, 153);
+	color: white; 
+}
+
+.school:hover{
+	background-color:rgb(255, 204, 153);
+	color: white; 
+}
+.interests:hover{
+	background-color:rgb(255, 204, 153);
+	color: white; 
+}
+
+.school{
+	/*position:absolute;*/
+	display: inline-block;
+	text-align: center;
+	line-height: 100px;
+	width: 30%;
+	height:100px;
+	margin-top: 10px;
+	border: 2px solid black;
+	padding:10px;
+	font-size: 30px;
+}
+.interests{
+	/*position:absolute;*/
+	display: inline-block;
+	text-align: center;
+	line-height: 100px;
+	width: 30%;
+	height:100px;
+	margin-top: 10px;
+	border: 2px solid black;
+	padding:10px;
+	font-size: 30px;
+}
+.contact{
+	display: inline-block;
+	text-align: center;
+	line-height: 100px;
+	width: 30%;
+	height:100px;
+	margin-top: 10px;
+	border: 3px solid black;
+	
+	font-size: 18px;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.contact:hover{
+	background-color:rgb(255, 204, 153);
+	color: white; 
+}
+.copyright{
+	display: inline-block;
+	text-align: center;
+	line-height: 100px;
+	width: 30%;
+	height:100px;
+	margin-top: 10px;
+	border: 3px solid black;
+
+	font-size: 18px;
+}
+.comment{
+	display: inline-block;
+	text-align: center;
+	line-height: 100px;
+	width: 30%;
+	height:100px;
+	margin-top: 10px;
+	border: 3px solid black;
+	
+	font-size: 18px;
+}
+.comment:hover{
+	background-color:rgb(255, 204, 153);
+	color: white; 
+}
+
+
+ a:hover{
+	/*background-color:rgb(255, 204, 153);*/
+	color: white; 
+}
